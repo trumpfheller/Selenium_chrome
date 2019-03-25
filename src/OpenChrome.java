@@ -24,7 +24,7 @@ public class OpenChrome {
 		driver.get("https://softwarequalityassurance.blog/contact/");
 		driver.findElement(By.id("g2-name")).sendKeys("Test1");
 		driver.findElement(By.id("g2-email")).sendKeys("test@example.com");
-		driver.findElement(By.id("contact-form-comment-g2-comment")).sendKeys("ipsum");
+		driver.findElement(By.id("contact-form-comment-g2-comment")).sendKeys("there is an automation for Chrome");
 	}
 
 }
